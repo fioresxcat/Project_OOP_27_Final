@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="javafx">
+    <CLASSES>
+      <root url="file://D:/openjfx-16_windows-x64_bin-sdk/javafx-sdk-16/javafx" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://D:/openjfx-16_windows-x64_bin-sdk/javafx-sdk-16/javafx" recursive="false" />
+  </library>
+</component>
