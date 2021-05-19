@@ -1,3 +1,5 @@
+// This part of the project is written by Tran Xuan Tung
+
 package sample.Controller;
 
 import javafx.beans.Observable;
@@ -207,7 +209,7 @@ public class MainController implements Initializable {
             table.getSelectionModel().clearSelection();
         });
 
-        // Set up combo Box (để chọn đơn vị)
+        // Set up combo Box (để chọn đơn vị, phòng ban)
         comboBox.getItems().add("Sale");
         comboBox.getItems().add("Technical");
         comboBox.getItems().add("Marketing");
@@ -263,9 +265,6 @@ public class MainController implements Initializable {
 
             Employee employee = null;
             if(type.equals("Full Time")) {
-//                if(basetext.getText().isEmpty() || extratext.getText().isEmpty()) {
-//                    alertDisplay.showWarningAlert("Base Salary and Extra Hour must be filled");
-//                }
                 Double base_salary = null;
                 try {
                     base_salary = Double.parseDouble(basetext.getText());
@@ -422,9 +421,7 @@ public class MainController implements Initializable {
                 if(newVal == null || newVal.isEmpty()) {
                     return true;
                 }
-
                 String lowerNewVal = newVal.toLowerCase();
-
                 if(employee.getName().toLowerCase().contains(lowerNewVal)) {
                     return true;
                 } else if(employee.getCmt().toLowerCase().contains(lowerNewVal)) {

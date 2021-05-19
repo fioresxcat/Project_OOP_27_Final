@@ -1,3 +1,5 @@
+// This part of the project is written by Tran Xuan Tung
+
 package sample;
 
 public class AppConfig {

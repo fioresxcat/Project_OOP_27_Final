@@ -1,3 +1,5 @@
+// This part of the project is written by Nguyen Duc Long
+
 package sample.DAO;
 
 import javafx.scene.control.Alert;
@@ -15,7 +17,6 @@ public class DatabaseConnect {
     public DatabaseConnect() throws SQLException {
         alertDisplay = new AlertDisplay();
         populateEmployList();
-        displayEmployee();
     }
 
     public List<Employee> getEmployList() {

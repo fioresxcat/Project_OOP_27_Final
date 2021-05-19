@@ -1,3 +1,5 @@
+// This part of the project is written by Nguyen Duc Trong
+
 package sample.Model;
 
 public class Employee {
